@@ -22,6 +22,8 @@ import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
 public class MongoUtil {
 
+    private static final ObjectMapper mapper = new ObjectMapper();
+
     public static void main(String[] args) {
         initCRs();
         initEnvironments();
@@ -31,7 +33,6 @@ public class MongoUtil {
 
     private static void initCRs() {
         try {
-            ObjectMapper mapper = new ObjectMapper();
             InputStream is = new FileInputStream("src/main/resources/cr.json");
             String result = new String(is.readAllBytes());
 
@@ -63,7 +64,6 @@ public class MongoUtil {
 
     private static void initEnvironments() {
         try {
-            ObjectMapper mapper = new ObjectMapper();
             InputStream is = new FileInputStream("src/main/resources/environment.json");
             String result = new String(is.readAllBytes());
 
@@ -94,7 +94,6 @@ public class MongoUtil {
 
     private static void initTypes() {
         try {
-            ObjectMapper mapper = new ObjectMapper();
             InputStream is = new FileInputStream("src/main/resources/type.json");
             String result = new String(is.readAllBytes());
 
@@ -123,9 +122,8 @@ public class MongoUtil {
         }
     }
 
-    private static void initArticMonsters(){
+    private static void initArticMonsters() {
         try {
-            ObjectMapper mapper = new ObjectMapper();
             InputStream is = new FileInputStream("src/main/resources/articMonsters.json");
             String result = new String(is.readAllBytes());
 
@@ -142,7 +140,7 @@ public class MongoUtil {
 
             if (mongoClient.getDatabase("dnd").getCollection("monster").countDocuments() == 0) {
                 Arrays.stream(monsters).iterator().forEachRemaining(monster -> {
-                    Document data= new Document().append("name", monster.getName())
+                    Document data = new Document().append("name", monster.getName())
                             .append("cr", monster.getCr())
                             .append("type", monster.getType())
                             .append("environment", monster.getEnvironment());
