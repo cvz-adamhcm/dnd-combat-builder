@@ -26,7 +26,7 @@ public class MonsterResource {
     @Path("/monster")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllMonsters() {
-        Monster monster = new Monster("asdasd", new ChallengeRating("1/2", 500),
+        Monster monster = new Monster("test", new ChallengeRating("1/2", 500),
                 new Type("Aberration"), new ArrayList<>());
 
         return Response.ok(monster, MediaType.APPLICATION_JSON).build();
