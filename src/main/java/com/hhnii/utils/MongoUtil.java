@@ -3,16 +3,22 @@ package com.hhnii.utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hhnii.model.ChallengeRating;
 import com.hhnii.model.Environment;
+import com.hhnii.model.Monster;
 import com.hhnii.model.Type;
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import org.bson.Document;
+import org.bson.codecs.configuration.CodecRegistry;
+import org.bson.codecs.pojo.PojoCodecProvider;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Arrays;
+
+import static org.bson.codecs.configuration.CodecRegistries.fromProviders;
+import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
 public class MongoUtil {
 
@@ -20,6 +26,7 @@ public class MongoUtil {
         initCRs();
         initEnvironments();
         initTypes();
+        initArticMonsters();
     }
 
     private static void initCRs() {
@@ -30,8 +37,12 @@ public class MongoUtil {
 
             ChallengeRating[] crs = mapper.readValue(result, ChallengeRating[].class);
 
+            CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
+                    fromProviders(PojoCodecProvider.builder().automatic(true).build()));
+
             MongoClientSettings settings = MongoClientSettings.builder()
                     .applyConnectionString(new ConnectionString("mongodb://localhost:27017"))
+                    .codecRegistry(pojoCodecRegistry)
                     .build();
             MongoClient mongoClient = MongoClients.create(settings);
 
@@ -58,8 +69,12 @@ public class MongoUtil {
 
             Environment[] envs = mapper.readValue(result, Environment[].class);
 
+            CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
+                    fromProviders(PojoCodecProvider.builder().automatic(true).build()));
+
             MongoClientSettings settings = MongoClientSettings.builder()
                     .applyConnectionString(new ConnectionString("mongodb://localhost:27017"))
+                    .codecRegistry(pojoCodecRegistry)
                     .build();
             MongoClient mongoClient = MongoClients.create(settings);
 
@@ -85,8 +100,12 @@ public class MongoUtil {
 
             Type[] types = mapper.readValue(result, Type[].class);
 
+            CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
+                    fromProviders(PojoCodecProvider.builder().automatic(true).build()));
+
             MongoClientSettings settings = MongoClientSettings.builder()
                     .applyConnectionString(new ConnectionString("mongodb://localhost:27017"))
+                    .codecRegistry(pojoCodecRegistry)
                     .build();
             MongoClient mongoClient = MongoClients.create(settings);
 
@@ -96,6 +115,41 @@ public class MongoUtil {
                             .insertOne(new Document()
                                     .append("name", type.getName()));
                     System.out.println("Data correctly inserted, type: " + type.getName());
+                });
+            }
+            mongoClient.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void initArticMonsters(){
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            InputStream is = new FileInputStream("src/main/resources/articMonsters.json");
+            String result = new String(is.readAllBytes());
+
+            Monster[] monsters = mapper.readValue(result, Monster[].class);
+
+            CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
+                    fromProviders(PojoCodecProvider.builder().automatic(true).build()));
+
+            MongoClientSettings settings = MongoClientSettings.builder()
+                    .applyConnectionString(new ConnectionString("mongodb://localhost:27017"))
+                    .codecRegistry(pojoCodecRegistry)
+                    .build();
+            MongoClient mongoClient = MongoClients.create(settings);
+
+            if (mongoClient.getDatabase("dnd").getCollection("monster").countDocuments() == 0) {
+                Arrays.stream(monsters).iterator().forEachRemaining(monster -> {
+                    Document data= new Document().append("name", monster.getName())
+                            .append("cr", monster.getCr())
+                            .append("type", monster.getType())
+                            .append("environment", monster.getEnvironment());
+
+                    mongoClient.getDatabase("dnd").getCollection("monster")
+                            .insertOne(data);
+                    System.out.println("Data correctly inserted, type: " + monster.getName());
                 });
             }
             mongoClient.close();
