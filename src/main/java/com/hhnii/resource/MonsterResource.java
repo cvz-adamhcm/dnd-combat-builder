@@ -1,10 +1,12 @@
 package com.hhnii.resource;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hhnii.model.ChallengeRating;
 import com.hhnii.model.Environment;
 import com.hhnii.model.Monster;
-import com.hhnii.model.Type;
 import com.mongodb.client.MongoClient;
+import com.mongodb.client.model.Projections;
 import io.vertx.core.json.JsonObject;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
@@ -12,24 +14,38 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Path("/api")
+@Slf4j
 public class MonsterResource {
 
     @Inject
     MongoClient mongoClient;
 
+    private final ObjectMapper mapper = new ObjectMapper();
+
     @GET
     @Path("/monster")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllMonsters() {
-        Monster monster = new Monster("test", new ChallengeRating("1/2", 500),
-                new Type("Aberration"), new ArrayList<>());
+        List<Monster> monsters = new ArrayList<>();
 
-        return Response.ok(monster, MediaType.APPLICATION_JSON).build();
+        mongoClient.getDatabase("dnd").getCollection("monster").find()
+                .projection(Projections.fields(Projections.excludeId()))
+                .forEach(doc -> {
+                    log.info("Data: {}", doc.toJson());
+                    try {
+                        monsters.add(mapper.readValue(doc.toJson(), Monster.class));
+                    } catch (JsonProcessingException e) {
+                        log.error(e.getMessage());
+                    }
+                });
+
+        return Response.ok(new JsonObject().put("monsters", monsters)).build();
     }
 
     @GET
@@ -39,9 +55,14 @@ public class MonsterResource {
         List<ChallengeRating> ratings = new ArrayList<>();
 
         mongoClient.getDatabase("dnd").getCollection("cr").find()
-                .forEach(doc -> ratings.add(
-                        new ChallengeRating(doc.getString("challenge"),
-                                doc.getInteger("xp"))));
+                .projection(Projections.fields(Projections.excludeId()))
+                .forEach(doc -> {
+                    try {
+                        ratings.add(mapper.readValue(doc.toJson(), ChallengeRating.class));
+                    } catch (JsonProcessingException e) {
+                        log.error(e.getMessage());
+                    }
+                });
 
         return Response.ok(new JsonObject().put("crs", ratings)).build();
     }
@@ -53,8 +74,14 @@ public class MonsterResource {
         List<Environment> environments = new ArrayList<>();
 
         mongoClient.getDatabase("dnd").getCollection("environment").find()
-                .forEach(doc -> environments.add(
-                        new Environment(doc.getString("name"))));
+                .projection(Projections.fields(Projections.excludeId()))
+                .forEach(doc -> {
+                    try {
+                        environments.add(mapper.readValue(doc.toJson(), Environment.class));
+                    } catch (JsonProcessingException e) {
+                        log.error(e.getMessage());
+                    }
+                });
 
         return Response.ok(new JsonObject().put("environments", environments)).build();
     }
