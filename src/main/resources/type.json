@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aberration"
+  },
+  {
+    "name": "Beast"
+  },
+  {
+    "name": "Celestial"
+  },
+  {
+    "name": "Construct"
+  },
+  {
+    "name": "Dragon"
+  },
+  {
+    "name": "Elemental"
+  },
+  {
+    "name": "Fey"
+  },
+  {
+    "name": "Fiend"
+  },
+  {
+    "name": "Giant"
+  },
+  {
+    "name": "Humanoid"
+  },
+  {
+    "name": "Monstrosity"
+  },
+  {
+    "name": "Ooze"
+  },
+  {
+    "name": "Plant"
+  },
+  {
+    "name": "Undead"
+  }
+]

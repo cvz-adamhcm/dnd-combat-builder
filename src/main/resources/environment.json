@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Artic"
+  },
+  {
+    "name": "Coastal"
+  },
+  {
+    "name": "Desert"
+  },
+  {
+    "name": "Forest"
+  },
+  {
+    "name": "Grassland"
+  },
+  {
+    "name": "Hill"
+  },
+  {
+    "name": "Mountain"
+  },
+  {
+    "name": "Swamp"
+  },
+  {
+    "name": "Underdark"
+  },
+  {
+    "name": "Underwater"
+  },
+  {
+    "name": "Urban"
+  }
+]
