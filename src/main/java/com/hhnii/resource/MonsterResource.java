@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hhnii.model.ChallengeRating;
 import com.hhnii.model.Environment;
 import com.hhnii.model.Monster;
+import com.hhnii.model.Type;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.model.Projections;
 import io.vertx.core.json.JsonObject;
@@ -84,6 +85,25 @@ public class MonsterResource {
                 });
 
         return Response.ok(new JsonObject().put("environments", environments)).build();
+    }
+
+    @GET
+    @Path("/monster/type")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getAllTypes() {
+        List<Type> types = new ArrayList<>();
+
+        mongoClient.getDatabase("dnd").getCollection("type").find()
+                .projection(Projections.fields(Projections.excludeId()))
+                .forEach(doc -> {
+                    try {
+                        types.add(mapper.readValue(doc.toJson(), Type.class));
+                    } catch (JsonProcessingException e) {
+                        log.error(e.getMessage());
+                    }
+                });
+
+        return Response.ok(new JsonObject().put("types", types)).build();
     }
 
 }
