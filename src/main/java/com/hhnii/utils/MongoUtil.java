@@ -9,9 +9,13 @@ import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.UpdateOptions;
+import com.mongodb.client.model.Updates;
 import org.bson.Document;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
+import org.bson.conversions.Bson;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -28,7 +32,7 @@ public class MongoUtil {
         initCRs();
         initEnvironments();
         initTypes();
-        initArticMonsters();
+        initMonsters();
     }
 
     private static void initCRs() {
@@ -122,9 +126,9 @@ public class MongoUtil {
         }
     }
 
-    private static void initArticMonsters() {
+    private static void initMonsters() {
         try {
-            InputStream is = new FileInputStream("src/main/resources/articMonsters.json");
+            InputStream is = new FileInputStream("src/main/resources/monster.json");
             String result = new String(is.readAllBytes());
 
             Monster[] monsters = mapper.readValue(result, Monster[].class);
@@ -138,18 +142,20 @@ public class MongoUtil {
                     .build();
             MongoClient mongoClient = MongoClients.create(settings);
 
-            if (mongoClient.getDatabase("dnd").getCollection("monster").countDocuments() == 0) {
-                Arrays.stream(monsters).iterator().forEachRemaining(monster -> {
-                    Document data = new Document().append("name", monster.getName())
-                            .append("cr", monster.getCr())
-                            .append("type", monster.getType())
-                            .append("environment", monster.getEnvironment());
+            Arrays.stream(monsters).iterator().forEachRemaining(monster -> {
+                Bson filter = Filters.eq("name", monster.getName());
+                Bson update = Updates.combine(
+                        Updates.set("cr", monster.getCr()),
+                        Updates.set("type", monster.getType()),
+                        Updates.set("environment", monster.getEnvironment()));
 
-                    mongoClient.getDatabase("dnd").getCollection("monster")
-                            .insertOne(data);
-                    System.out.println("Data correctly inserted, type: " + monster.getName());
-                });
-            }
+                UpdateOptions options = new UpdateOptions().upsert(true);
+
+                mongoClient.getDatabase("dnd").getCollection("monster")
+                        .updateOne(filter, update, options);
+                System.out.println("Data correctly upserted, type: " + monster.getName());
+            });
+
             mongoClient.close();
         } catch (Exception e) {
             e.printStackTrace();

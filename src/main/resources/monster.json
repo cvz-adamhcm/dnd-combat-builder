@@ -1,0 +1,1778 @@
+[
+  {
+    "name": "Commoner",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Owl",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Crab",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Eagle",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Bandit",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Guard",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Kobold",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Dolphin",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Merfolk",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Poisonous Snake",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Blood Hawk",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Tribal Warrior",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Stirge",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Owl",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Winged Kobold",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll Witherling",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Ice Mephit",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Orc",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Scout",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll Hunter",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Brown Bear",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Half-Ogre",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Bandit Captain",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Berserker",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Druid",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Griffon",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Ogre",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Orc Eye of Gruumsh",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Orog",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Saber-toothed Tiger",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Manticore",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Veteran",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Winter Wolf",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Yeti",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Vampiric Mist",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Revenant",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Troll",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Werebear",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Young Remorhaz",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Mammoth",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Young White Dragon",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Bheur Hag",
+    "cr": {
+      "challenge": "7",
+      "xp": 2900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Lost Sorrowsworn",
+    "cr": {
+      "challenge": "7",
+      "xp": 2900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "cr": {
+      "challenge": "7",
+      "xp": 2900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Frost Giant",
+    "cr": {
+      "challenge": "8",
+      "xp": 3900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Abominable Yeti",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Frost Salamander",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Winter Eladrin",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Remorhaz",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Roc",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Boneclaw",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Adult White Dragon",
+    "cr": {
+      "challenge": "13",
+      "xp": 10000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Dire Troll",
+    "cr": {
+      "challenge": "13",
+      "xp": 10000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Ancient White Dragon",
+    "cr": {
+      "challenge": "20",
+      "xp": 25000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Nightwalker",
+    "cr": {
+      "challenge": "20",
+      "xp": 25000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Elder Tempest",
+    "cr": {
+      "challenge": "23",
+      "xp": 50000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Artic"
+      },
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Dimetrodon",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Tortle",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Lizard",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Pseudodragon",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Pteranodon",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Skulk",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Sahuagin",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Sea Spawn",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Eagle",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Giant Toad",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Harpy",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Merrow",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Plesiosaurus",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Sahuagin Priestess",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Sea Hag",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Tortle Druid",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Deep Scion",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Dolphin Delighter",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Merrenoloth",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Swashbuckler",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Banshee",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Sahuagin Baron",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Water Elemental",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Kraken Priest",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Young Bronze Dragon",
+    "cr": {
+      "challenge": "8",
+      "xp": 3900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Canoloth",
+    "cr": {
+      "challenge": "8",
+      "xp": 3900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Shoosuva",
+    "cr": {
+      "challenge": "8",
+      "xp": 3900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Young Blue Dragon",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Flind",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Lonely Sorrowsworn",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Stone Giant Dreamwalker",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Djinni",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Marid",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Balhannoth",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Morkoth",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Spirit Troll",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Eilodon",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Frost Giant Everlasting One",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Ki-rin",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Storm Giant",
+    "cr": {
+      "challenge": "13",
+      "xp": 10000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Wastrilith",
+    "cr": {
+      "challenge": "13",
+      "xp": 10000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "cr": {
+      "challenge": "15",
+      "xp": 13000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Adult Blue Dragon",
+    "cr": {
+      "challenge": "16",
+      "xp": 15000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "cr": {
+      "challenge": "16",
+      "xp": 15000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Turtle",
+    "cr": {
+      "challenge": "17",
+      "xp": 18000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Blue Abishai",
+    "cr": {
+      "challenge": "17",
+      "xp": 18000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Nagpa",
+    "cr": {
+      "challenge": "17",
+      "xp": 18000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "cr": {
+      "challenge": "20",
+      "xp": 25000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Bronze Dragon",
+    "cr": {
+      "challenge": "22",
+      "xp": 41000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "cr": {
+      "challenge": "23",
+      "xp": 50000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Coastal"
+      }
+    ]
+  }
+]
