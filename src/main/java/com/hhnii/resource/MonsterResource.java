@@ -7,15 +7,18 @@ import com.hhnii.model.Environment;
 import com.hhnii.model.Monster;
 import com.hhnii.model.Type;
 import com.mongodb.client.MongoClient;
+import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Projections;
 import io.vertx.core.json.JsonObject;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import lombok.extern.slf4j.Slf4j;
+import org.bson.conversions.Bson;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,10 +35,13 @@ public class MonsterResource {
     @GET
     @Path("/monster")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getAllMonsters() {
+    public Response getAllMonsters(@QueryParam("name") String name) {
         List<Monster> monsters = new ArrayList<>();
 
-        mongoClient.getDatabase("dnd").getCollection("monster").find()
+        Bson filters = name == null || name.isEmpty() ? Filters.empty() :
+                Filters.and(Filters.regex("name", "(?i)" + name));
+
+        mongoClient.getDatabase("dnd").getCollection("monster").find(filters)
                 .projection(Projections.fields(Projections.excludeId()))
                 .forEach(doc -> {
                     log.info("Data: {}", doc.toJson());
