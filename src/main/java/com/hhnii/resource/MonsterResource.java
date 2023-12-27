@@ -22,6 +22,8 @@ import org.bson.conversions.Bson;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
 
 @Path("/api")
 @Slf4j
@@ -44,7 +46,6 @@ public class MonsterResource {
         mongoClient.getDatabase("dnd").getCollection("monster").find(filters)
                 .projection(Projections.fields(Projections.excludeId()))
                 .forEach(doc -> {
-                    log.info("Data: {}", doc.toJson());
                     try {
                         monsters.add(mapper.readValue(doc.toJson(), Monster.class));
                     } catch (JsonProcessingException e) {
@@ -112,4 +113,44 @@ public class MonsterResource {
         return Response.ok(new JsonObject().put("types", types)).build();
     }
 
+    @GET
+    @Path("/encounter")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getEncounter(@QueryParam("threshold") int threshold,
+                                 @QueryParam("environment") String environment) {
+        List<Monster> monsters = new ArrayList<>(),
+                encounter;
+
+        Bson thresholdFilter = threshold > 0 ? Filters.lte("cr.xp", threshold) : Filters.empty();
+        Bson environmentFilter = environment != null ? Filters.in("environment.name",
+                environment) : Filters.empty();
+
+        mongoClient.getDatabase("dnd").getCollection("monster")
+                .find(Filters.and(thresholdFilter, environmentFilter))
+                .projection(Projections.fields(Projections.excludeId()))
+                .forEach(doc -> {
+                    try {
+                        monsters.add(mapper.readValue(doc.toJson(), Monster.class));
+                    } catch (JsonProcessingException e) {
+                        log.error(e.getMessage());
+                    }
+                });
+
+        encounter = buildEncounter(monsters, new ArrayList<>(), threshold);
+
+        return Response.ok(new JsonObject().put("encounter", encounter)).build();
+    }
+
+    private List<Monster> buildEncounter(List<Monster> monsters, List<Monster> encounter, int remaining) {
+        List<Monster> filtered = monsters.stream().filter(monster -> monster.getCr().getXp() < remaining)
+                .collect(Collectors.toList());
+
+        if (filtered.size() > 0) {
+            Monster monster = filtered.get(new Random().nextInt(filtered.size()));
+            encounter.add(monster);
+            return buildEncounter(monsters, encounter, remaining - monster.getCr().getXp());
+        } else {
+            return encounter;
+        }
+    }
 }
