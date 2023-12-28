@@ -14,6 +14,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -80,6 +83,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -95,6 +101,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -110,6 +119,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -155,6 +167,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -177,6 +192,21 @@
     ]
   },
   {
+    "name": "War Priest",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Tribal Warrior",
     "cr": {
       "challenge": "1/8",
@@ -191,6 +221,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -221,6 +254,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -254,6 +290,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -288,6 +327,21 @@
     ]
   },
   {
+    "name": "Firenewt Warrior",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Orc",
     "cr": {
       "challenge": "1/2",
@@ -317,6 +371,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -351,6 +408,21 @@
     ]
   },
   {
+    "name": "Meazel",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Half-Ogre",
     "cr": {
       "challenge": "1",
@@ -362,6 +434,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -395,6 +470,24 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Berbalang",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -413,6 +506,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -431,6 +527,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -467,6 +566,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -542,6 +644,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -612,6 +717,21 @@
     ]
   },
   {
+    "name": "Vargouille",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Vampiric Mist",
     "cr": {
       "challenge": "3",
@@ -656,6 +776,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -776,6 +899,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -791,6 +917,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -825,6 +954,21 @@
     ]
   },
   {
+    "name": "Necromancer Wizard",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Frost Salamander",
     "cr": {
       "challenge": "9",
@@ -851,6 +995,36 @@
     "environment": [
       {
         "name": "Artic"
+      }
+    ]
+  },
+  {
+    "name": "Githzerai Enlightened",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Githyanki Gish",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -884,6 +1058,9 @@
       },
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -899,6 +1076,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -959,6 +1139,9 @@
     "environment": [
       {
         "name": "Artic"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -996,6 +1179,51 @@
     ]
   },
   {
+    "name": "Tlincalli",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Orthon",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Tortle",
     "cr": {
       "challenge": "1/4",
@@ -1022,6 +1250,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1037,6 +1268,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1052,6 +1286,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1142,6 +1379,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1172,6 +1412,21 @@
     "environment": [
       {
         "name": "Coastal"
+      }
+    ]
+  },
+  {
+    "name": "Adult Kruthik",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1382,6 +1637,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1416,6 +1674,21 @@
     ]
   },
   {
+    "name": "Summer Eladrin",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Shoosuva",
     "cr": {
       "challenge": "8",
@@ -1431,6 +1704,21 @@
     ]
   },
   {
+    "name": "Howler",
+    "cr": {
+      "challenge": "8",
+      "xp": 3900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
     "name": "Young Blue Dragon",
     "cr": {
       "challenge": "9",
@@ -1442,6 +1730,24 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Champion",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1472,6 +1778,24 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Stone Cursed",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1566,7 +1890,7 @@
     ]
   },
   {
-    "name": "Eilodon",
+    "name": "Eidolon",
     "cr": {
       "challenge": "12",
       "xp": 8400
@@ -1577,6 +1901,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1607,6 +1934,54 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Githyanki Kit'rak",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Oinoloth",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Anatema",
+    "cr": {
+      "challenge": "12",
+      "xp": 8400
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1667,6 +2042,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1682,6 +2060,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1727,6 +2108,9 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
       }
     ]
   },
@@ -1772,6 +2156,939 @@
     "environment": [
       {
         "name": "Coastal"
+      },
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Cat",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Hyena",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Jackal",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Vulture",
+    "cr": {
+      "challenge": "0",
+      "xp": 10
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Camel",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Young Kruthik",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Flying Snake",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Mule",
+    "cr": {
+      "challenge": "1/8",
+      "xp": 25
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Constrictor Snake",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "cr": {
+      "challenge": "1/4",
+      "xp": 50
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Dust Mephit",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Jackalwere",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Swarm of Insects",
+    "cr": {
+      "challenge": "1/2",
+      "xp": 100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Death Dog",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Hyena",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Spider",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Vulture",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Lion",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Thri-kreen",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "cr": {
+      "challenge": "1",
+      "xp": 200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Broodguard",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "cr": {
+      "challenge": "2",
+      "xp": 450
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Giant Scorpion",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Leucrotta",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Rot Troll",
+    "cr": {
+      "challenge": "9",
+      "xp": 5000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Mummy",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Phase Spider",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Wight",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison",
+    "cr": {
+      "challenge": "3",
+      "xp": 700
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Couatl",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Dybbuk",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Lamia",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Weretiger",
+    "cr": {
+      "challenge": "4",
+      "xp": 1100
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Air Elemental",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Kruthik Hive lord",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Spawn of Kyuss",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Fire Elemental",
+    "cr": {
+      "challenge": "5",
+      "xp": 1800
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Medusa",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Young Brass Dragon",
+    "cr": {
+      "challenge": "6",
+      "xp": 2300
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "cr": {
+      "challenge": "7",
+      "xp": 2900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Guardian Naga",
+    "cr": {
+      "challenge": "10",
+      "xp": 5900
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Efreeti",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Gynosphinx",
+    "cr": {
+      "challenge": "11",
+      "xp": 7200
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Adult Brass Dragon",
+    "cr": {
+      "challenge": "13",
+      "xp": 10000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Mummy Lord",
+    "cr": {
+      "challenge": "15",
+      "xp": 13000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Purple Worm",
+    "cr": {
+      "challenge": "15",
+      "xp": 13000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Adult Blue Dracolich",
+    "cr": {
+      "challenge": "17",
+      "xp": 18000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Androsphinx",
+    "cr": {
+      "challenge": "17",
+      "xp": 18000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Brass Dragon",
+    "cr": {
+      "challenge": "20",
+      "xp": 25000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "cr": {
+      "challenge": "14",
+      "xp": 11500
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Retriever",
+    "cr": {
+      "challenge": "14",
+      "xp": 11500
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Skull Lord",
+    "cr": {
+      "challenge": "15",
+      "xp": 13000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "cr": {
+      "challenge": "16",
+      "xp": 15000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
+      }
+    ]
+  },
+  {
+    "name": "Zaratan",
+    "cr": {
+      "challenge": "22",
+      "xp": 41000
+    },
+    "type": {
+      "name": ""
+    },
+    "environment": [
+      {
+        "name": "Desert"
       }
     ]
   }
